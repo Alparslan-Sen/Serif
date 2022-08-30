@@ -1,0 +1,510 @@
+name: DelaliSerif
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  assets_audio_player: ^2.0.10
+  cupertino_icons: ^1.0.0
+  photo_view: ^0.10.3
+  animated_float_action_button: ^1.0.3
+  pinch_zoom_image_updated: ^0.2.6
+  flutter_swiper: ^1.1.4
+  audioplayers: ^0.16.1
+  fluttertoast: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/1.jpg
+    - assets/2.jpg
+    - assets/3.jpg
+    - assets/4.jpg
+    - assets/5.jpg
+    - assets/6.jpg
+    - assets/7.jpg
+    - assets/8.jpg
+    - assets/9.jpg
+    - assets/10.jpg
+    - assets/11.jpg
+    - assets/12.jpg
+    - assets/13.jpg
+    - assets/14.jpg
+    - assets/15.jpg
+    - assets/16.jpg
+    - assets/17.jpg
+    - assets/18.jpg
+    - assets/19.jpg
+    - assets/20.jpg
+    - assets/21.jpg
+    - assets/22.jpg
+    - assets/23.jpg
+    - assets/24.jpg
+    - assets/25.jpg
+    - assets/26.jpg
+    - assets/27.jpg
+    - assets/28.jpg
+    - assets/29.jpg
+    - assets/30.jpg
+    - assets/31.jpg
+    - assets/32.jpg
+    - assets/33.jpg
+    - assets/34.jpg
+    - assets/35.jpg
+    - assets/36.jpg
+    - assets/37.jpg
+    - assets/38.jpg
+    - assets/39.jpg
+    - assets/40.jpg
+    - assets/41.jpg
+    - assets/42.jpg
+    - assets/43.jpg
+    - assets/44.jpg
+    - assets/45.jpg
+    - assets/46.jpg
+    - assets/47.jpg
+    - assets/48.jpg
+    - assets/49.jpg
+    - assets/50.jpg
+    - assets/51.jpg
+    - assets/52.jpg
+    - assets/53.jpg
+    - assets/54.jpg
+    - assets/55.jpg
+    - assets/56.jpg
+    - assets/57.jpg
+    - assets/58.jpg
+    - assets/59.jpg
+    - assets/60.jpg
+    - assets/61.jpg
+    - assets/62.jpg
+    - assets/63.jpg
+    - assets/64.jpg
+    - assets/65.jpg
+    - assets/66.jpg
+    - assets/67.jpg
+    - assets/68.jpg
+    - assets/69.jpg
+    - assets/70.jpg
+    - assets/71.jpg
+    - assets/72.jpg
+    - assets/73.jpg
+    - assets/74.jpg
+    - assets/75.jpg
+    - assets/76.jpg
+    - assets/77.jpg
+    - assets/78.jpg
+    - assets/79.jpg
+    - assets/80.jpg
+    - assets/81.jpg
+    - assets/82.jpg
+    - assets/83.jpg
+    - assets/84.jpg
+    - assets/85.jpg
+    - assets/86.jpg
+    - assets/87.jpg
+    - assets/88.jpg
+    - assets/89.jpg
+    - assets/90.jpg
+    - assets/91.jpg
+    - assets/92.jpg
+    - assets/93.jpg
+    - assets/94.jpg
+    - assets/95.jpg
+    - assets/96.jpg
+    - assets/97.jpg
+    - assets/98.jpg
+    - assets/99.jpg
+    - assets/100.jpg
+    - assets/101.jpg
+    - assets/102.jpg
+    - assets/103.jpg
+    - assets/104.jpg
+    - assets/105.jpg
+    - assets/106.jpg
+    - assets/107.jpg
+    - assets/108.jpg
+    - assets/109.jpg
+    - assets/110.jpg
+    - assets/111.jpg
+    - assets/112.jpg
+    - assets/113.jpg
+    - assets/114.jpg
+    - assets/115.jpg
+    - assets/116.jpg
+    - assets/117.jpg
+    - assets/118.jpg
+    - assets/119.jpg
+    - assets/120.jpg
+    - assets/121.jpg
+    - assets/122.jpg
+    - assets/123.jpg
+    - assets/124.jpg
+    - assets/125.jpg
+    - assets/126.jpg
+    - assets/127.jpg
+    - assets/128.jpg
+    - assets/129.jpg
+    - assets/130.jpg
+    - assets/131.jpg
+    - assets/132.jpg
+    - assets/133.jpg
+    - assets/134.jpg
+    - assets/135.jpg
+    - assets/136.jpg
+    - assets/137.jpg
+    - assets/138.jpg
+    - assets/139.jpg
+    - assets/140.jpg
+    - assets/141.jpg
+    - assets/142.jpg
+    - assets/143.jpg
+    - assets/144.jpg
+    - assets/145.jpg
+    - assets/146.jpg
+    - assets/147.jpg
+    - assets/148.jpg
+    - assets/149.jpg
+    - assets/150.jpg
+    - assets/151.jpg
+    - assets/152.jpg
+    - assets/153.jpg
+    - assets/154.jpg
+    - assets/155.jpg
+    - assets/156.jpg
+    - assets/157.jpg
+    - assets/158.jpg
+    - assets/159.jpg
+    - assets/160.jpg
+    - assets/161.jpg
+    - assets/162.jpg
+    - assets/163.jpg
+    - assets/164.jpg
+    - assets/165.jpg
+    - assets/166.jpg
+    - assets/167.jpg
+    - assets/168.jpg
+    - assets/169.jpg
+    - assets/170.jpg
+    - assets/171.jpg
+    - assets/172.jpg
+    - assets/173.jpg
+    - assets/174.jpg
+    - assets/175.jpg
+    - assets/176.jpg
+    - assets/177.jpg
+    - assets/178.jpg
+    - assets/179.jpg
+    - assets/180.jpg
+    - assets/181.jpg
+    - assets/182.jpg
+    - assets/183.jpg
+    - assets/184.jpg
+    - assets/185.jpg
+    - assets/186.jpg
+    - assets/187.jpg
+    - assets/188.jpg
+    - assets/189.jpg
+    - assets/190.jpg
+    - assets/191.jpg
+    - assets/192.jpg
+    - assets/193.jpg
+    - assets/194.jpg
+    - assets/195.jpg
+    - assets/196.jpg
+    - assets/197.jpg
+    - assets/198.jpg
+    - assets/199.jpg
+    - assets/200.jpg
+    - assets/201.jpg
+    - assets/202.jpg
+    - assets/203.jpg
+    - assets/204.jpg
+    - assets/205.jpg
+    - assets/206.jpg
+    - assets/207.jpg
+    - assets/208.jpg
+    - assets/209.jpg
+    - assets/210.jpg
+    - assets/211.jpg
+    - assets/212.jpg
+    - assets/213.jpg
+    - assets/214.jpg
+    - assets/215.jpg
+    - assets/216.jpg
+    - assets/217.jpg
+    - assets/218.jpg
+    - assets/219.jpg
+    - assets/220.jpg
+    - assets/221.jpg
+    - assets/222.jpg
+    - assets/223.jpg
+    - assets/224.jpg
+    - assets/225.jpg
+    - assets/226.jpg
+    - assets/227.jpg
+    - assets/228.jpg
+    - assets/229.jpg
+    - assets/230.jpg
+    - assets/231.jpg
+    - assets/232.jpg
+    - assets/233.jpg
+    - assets/234.jpg
+    - assets/235.jpg
+    - assets/236.jpg
+    - assets/237.jpg
+    - assets/238.jpg
+    - assets/239.jpg
+    - assets/240.jpg
+    - assets/241.jpg
+    - assets/242.jpg
+    - assets/243.jpg
+    - assets/244.jpg
+    - assets/245.jpg
+    - assets/246.jpg
+    - assets/247.jpg
+    - assets/248.jpg
+    - assets/249.jpg
+    - assets/250.jpg
+    - assets/251.jpg
+    - assets/252.jpg
+    - assets/253.jpg
+    - assets/254.jpg
+    - assets/255.jpg
+    - assets/256.jpg
+    - assets/257.jpg
+    - assets/258.jpg
+    - assets/259.jpg
+    - assets/260.jpg
+    - assets/261.jpg
+    - assets/262.jpg
+    - assets/263.jpg
+    - assets/264.jpg
+    - assets/265.jpg
+    - assets/266.jpg
+    - assets/267.jpg
+    - assets/268.jpg
+    - assets/269.jpg
+    - assets/270.jpg
+    - assets/271.jpg
+    - assets/272.jpg
+    - assets/273.jpg
+    - assets/274.jpg
+    - assets/275.jpg
+    - assets/276.jpg
+    - assets/277.jpg
+    - assets/278.jpg
+    - assets/279.jpg
+    - assets/280.jpg
+    - assets/281.jpg
+    - assets/282.jpg
+    - assets/283.jpg
+    - assets/284.jpg
+    - assets/285.jpg
+    - assets/286.jpg
+    - assets/287.jpg
+    - assets/288.jpg
+    - mp3/24.mp3
+    - mp3/25.mp3
+    - mp3/26.mp3
+    - mp3/27.mp3
+    - mp3/28.mp3
+    - mp3/29.mp3
+    - mp3/44.mp3
+    - mp3/45.mp3
+    - mp3/46.mp3
+    - mp3/47.mp3
+    - mp3/48.mp3
+    - mp3/49.mp3
+    - mp3/54.mp3
+    - mp3/55.mp3
+    - mp3/56.mp3
+    - mp3/57.mp3
+    - mp3/58.mp3
+    - mp3/59.mp3
+    - mp3/60.mp3
+    - mp3/61.mp3
+    - mp3/62.mp3
+    - mp3/63.mp3
+    - mp3/64.mp3
+    - mp3/65.mp3
+    - mp3/66.mp3
+    - mp3/67.mp3
+    - mp3/68.mp3
+    - mp3/69.mp3
+    - mp3/70.mp3
+    - mp3/71.mp3
+    - mp3/72.mp3
+    - mp3/73.mp3
+    - mp3/74.mp3
+    - mp3/75.mp3
+    - mp3/76.mp3
+    - mp3/77.mp3
+    - mp3/78.mp3
+    - mp3/79.mp3
+    - mp3/80.mp3
+    - mp3/81.mp3
+    - mp3/82.mp3
+    - mp3/83.mp3
+    - mp3/84.mp3
+    - mp3/85.mp3
+    - mp3/86.mp3
+    - mp3/87.mp3
+    - mp3/88.mp3
+    - mp3/89.mp3
+    - mp3/90.mp3
+    - mp3/91.mp3
+    - mp3/92.mp3
+    - mp3/93.mp3
+    - mp3/94.mp3
+    - mp3/95.mp3
+    - mp3/96.mp3
+    - mp3/97.mp3
+    - mp3/98.mp3
+    - mp3/99.mp3
+    - mp3/100.mp3
+    - mp3/101.mp3
+    - mp3/102.mp3
+    - mp3/103.mp3
+    - mp3/105.mp3
+    - mp3/106.mp3
+    - mp3/107.mp3
+    - mp3/108.mp3
+    - mp3/109.mp3
+    - mp3/110.mp3
+    - mp3/111.mp3
+    - mp3/112.mp3
+    - mp3/113.mp3
+    - mp3/114.mp3
+    - mp3/115.mp3
+    - mp3/116.mp3
+    - mp3/117.mp3
+    - mp3/118.mp3
+    - mp3/119.mp3
+    - mp3/120.mp3
+    - mp3/121.mp3
+    - mp3/122.mp3
+    - mp3/123.mp3
+    - mp3/124.mp3
+    - mp3/125.mp3
+    - mp3/126.mp3
+    - mp3/127.mp3
+    - mp3/128.mp3
+    - mp3/129.mp3
+    - mp3/130.mp3
+    - mp3/131.mp3
+    - mp3/132.mp3
+    - mp3/133.mp3
+    - mp3/134.mp3
+    - mp3/135.mp3
+    - mp3/136.mp3
+    - mp3/137.mp3
+    - mp3/138.mp3
+    - mp3/139.mp3
+    - mp3/140.mp3
+    - mp3/141.mp3
+    - mp3/142.mp3
+    - mp3/143.mp3
+    - mp3/144.mp3
+    - mp3/145.mp3
+    - mp3/146.mp3
+    - mp3/147.mp3
+    - mp3/148.mp3
+    - mp3/149.mp3
+    - mp3/150.mp3
+    - mp3/151.mp3
+    - mp3/152.mp3
+    - mp3/153.mp3
+    - mp3/154.mp3
+    - mp3/155.mp3
+    - mp3/156.mp3
+    - mp3/157.mp3
+    - mp3/158.mp3
+    - mp3/159.mp3
+    - mp3/160.mp3
+    - mp3/161.mp3
+    - mp3/278.mp3
+    - mp3/279.mp3
+    - mp3/280.mp3
+    - mp3/281.mp3
+    - mp3/282.mp3
+    - mp3/283.mp3
+    - mp3/284.mp3
+    - mp3/285.mp3
+    - mp3/286.mp3
+    - mp3/287.mp3
+    - mp3/161.mp3
+    - mp3/278.mp3
+    - mp3/278.mp3
+    - mp3/279.mp3
+    - mp3/280.mp3
+    - mp3/281.mp3
+    - mp3/282.mp3
+    - mp3/283.mp3
+    - mp3/284.mp3
+    - mp3/285.mp3
+    - mp3/286.mp3
+    - mp3/287.mp3
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
